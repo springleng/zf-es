@@ -82,6 +82,8 @@
         "cs-check": "phpcs",
         "cs-fix": "phpcbf",
         "serve": "php -S 0.0.0.0:8080 -t public/",
+        "sw-serve": "php vendor/bin/zend-expressive-swoole start",
+        "sw-served": "php vendor/bin/zend-expressive-swoole start -d",
         "test": "phpunit --colors=always",
         "test-coverage": "phpunit --colors=always --coverage-clover clover.xml"
     }
