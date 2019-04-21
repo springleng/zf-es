@@ -84,6 +84,9 @@
         "serve": "php -S 0.0.0.0:8080 -t public/",
         "sw-serve": "php vendor/bin/zend-expressive-swoole start",
         "sw-served": "php vendor/bin/zend-expressive-swoole start -d",
+        "sw-served-status": "php vendor/bin/zend-expressive-swoole status",
+        "sw-served-reload": "php vendor/bin/zend-expressive-swoole reload",
+        "sw-served-stop": "php vendor/bin/zend-expressive-swoole stop",
         "test": "phpunit --colors=always",
         "test-coverage": "phpunit --colors=always --coverage-clover clover.xml"
     }
