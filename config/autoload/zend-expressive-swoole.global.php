@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 use Zend\Expressive\Swoole\ConfigProvider;
 
 return array_merge((new ConfigProvider())(), [
